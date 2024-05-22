@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v1
 
       - name: Build application
-      - run: npm ci && ng build --configuration production --output-path=dist
+        run: npm ci && ng build --configuration production --output-path=dist
 
       - name: Deploy to Simply
         uses: rasmusbuchholdt/simply-web-deploy@2.1.0
