@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
         name: Install Latest Angular
-      - uses: mayurrawte/github-angular-actions@v1.1.0
+      - uses: JsonaLike/github-angular-actions@node22
       - name: Build application
         run: npm ci && ng build --configuration production --output-path=dist
 
