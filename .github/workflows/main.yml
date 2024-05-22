@@ -1,5 +1,5 @@
 name: Build, publish and deploy project to Simply
- 
+
 on: [push]
 
 jobs:
