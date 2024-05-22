@@ -20,3 +20,4 @@ jobs:
           server-username: ${{ secrets.SERVER_USERNAME }}
           server-password: ${{ secrets.SERVER_PASSWORD }}
           source-path: '\dist\'
+          target-delete: true
